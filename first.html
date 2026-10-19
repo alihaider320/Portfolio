@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ali Haider Siddique | AI & Data Science Portfolio</title>
+
+    <meta name="description"
+          content="Ali Haider Siddique's portfolio showcasing Data Science, Artificial Intelligence, Machine Learning and software projects.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Ali Haider.</a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a class="nav-link active" href="#home">Home</a></li>
+                <li><a class="nav-link" href="#about">About</a></li>
+                <li><a class="nav-link" href="#resume">Resume</a></li>
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+                <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="container hero-content">
+
+                <div class="hero-text">
+                    <p class="eyebrow">HELLO!</p>
+
+                    <h1>
+                        I'm <span>Ali Haider</span><br>
+                        Siddique
+                    </h1>
+
+                    <h2 class="typing-line">
+                        <span id="typing-text">Data Scientist</span><span class="cursor">|</span>
+                    </h2>
+
+                    <p class="hero-description">
+                        An aspiring Data Scientist and AI Developer,
+                        passionate about transforming data into
+                        meaningful insights and building intelligent solutions.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            MY PROJECTS
+                        </a>
+
+                        <a href="#about" class="btn btn-outline">
+                            ABOUT ME
+                        </a>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://github.com/YOUR_USERNAME"
+                           target="_blank" rel="noopener noreferrer">GitHub</a>
+
+                        <a href="https://www.linkedin.com/in/alihaider-siddique-ba055/"
+                           target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-glow"></div>
+
+                    <img src="images/profile.png"
+                         alt="Ali Haider Siddique"
+                         onerror="this.style.display='none'; document.getElementById('photo-placeholder').style.display='flex';">
+
+                    <div class="photo-placeholder" id="photo-placeholder">
+                        YOUR<br>PHOTO
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="section section-alt" id="about">
+            <div class="container">
+                <p class="eyebrow">GET TO KNOW ME</p>
+                <h2 class="section-title">About <span>Me</span></h2>
+
+                <div class="about-content">
+                    <div>
+                        <h3>Turning data into intelligent solutions.</h3>
+
+                        <p>
+                            I'm Ali Haider Siddique, a Computer Science student
+                            interested in Data Science, Artificial Intelligence
+                            and Machine Learning.
+                        </p>
+
+                        <p>
+                            I enjoy exploring datasets, discovering patterns,
+                            training machine learning models and developing
+                            applications that solve practical problems.
+                        </p>
+
+                        <a href="#contact" class="btn btn-primary">
+                            LET'S CONNECT
+                        </a>
+                    </div>
+
+                    <div class="skills">
+                        <h3>My Skills</h3>
+
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Python</span>
+                                <span>Learning & Building</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 75%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Data Analysis</span>
+                                <span>Learning & Building</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 70%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>Machine Learning</span>
+                                <span>Learning & Building</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 60%"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item">
+                            <div class="skill-label">
+                                <span>HTML & CSS</span>
+                                <span>Learning & Building</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="--progress: 65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section class="section" id="resume">
+            <div class="container">
+                <p class="eyebrow">MY BACKGROUND</p>
+                <h2 class="section-title">My <span>Resume</span></h2>
+
+                <div class="resume-card">
+                    <h3>Education</h3>
+                    <p class="accent-text">Computer Science</p>
+                    <p>
+                        I am currently pursuing a Bachelor's degree in Computer Science at COMSATS University, with a strong interest in Data Science and Artificial Intelligence. I am passionate about analyzing data, developing machine learning models, and using data-driven insights to solve real-world problems.
+                    </p>
+
+                    <div class="divider"></div>
+
+                    <h3>Areas of Interest</h3>
+                    <p>
+                        Data Science · Machine Learning · Artificial Intelligence
+                        · Data Visualization · Generative AI
+                    </p>
+
+                    <a href="resume.pdf"
+                       class="btn btn-primary"
+                       download>
+                        DOWNLOAD RESUME
+                    </a>
+                    <p class="small-note">
+                        Add your PDF resume to the project folder as
+                        <strong>resume.pdf</strong>.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+                <h2 class="section-title">My <span>Projects</span></h2>
+
+                <div class="project-grid">
+
+                    <article class="project-card">
+                        <div class="project-number">01</div>
+                        <h3>Movie Recommendation System</h3>
+                        <p>
+                            A content-based movie recommendation application
+                            using Python, Pandas, CountVectorizer and
+                            cosine similarity.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Streamlit</span>
+                        </div>
+                        <a href="https://github.com/alihaider320?tab=repositories=alihaider320"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">02</div>
+                        <h3>Fake News Detection</h3>
+                        <p>
+                            An NLP project designed to classify news articles
+                            using text preprocessing and machine learning.
+                        </p>
+                        <div class="tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <a href="https://github.com/alihaider320?tab=repositories/YOUR_USERNAME"
+                           target="_blank" rel="noopener noreferrer"
+                           class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-number">03</div>
+                        <h3>Data Analysis Dashboard</h3>
+                        <p>
+                            An interactive data exploration project featuring
+                            charts, descriptive statistics and useful insights.
+                        </p>
+                        <div class="tags">
+                            <span>Pandas</span>
+                            <span>Plotly</span>
+                            <span>Data Visualization</span>
+                        </div>
+                        <a href="https://github.com/alihaider320?tab=repositories/YOUR_USERNAME"
+                            target="_blank" rel="noopener noreferrer"
+                            class="project-link">
+                            View Project ↗
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="container contact-container">
+                <p class="eyebrow">LET'S WORK TOGETHER</p>
+                <h2 class="section-title">
+                    Get In <span>Touch</span>
+                </h2>
+
+                <p class="contact-description">
+                    Have a project idea, internship opportunity or a question?
+                    Feel free to reach out.
+                </p>
+
+                
+                
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=alihaidersiddique330@gmail.com&su=Portfolio%20Inquiry"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="btn btn-primary">
+                    CONTACT ME
+                </a>
+
+                
+
+                <p class="email">
+                    alihaidersiddique330@gmail.com
+                </p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© <span id="year"></span> Ali Haider Siddique. All rights reserved.</p>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
